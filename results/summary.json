@@ -1,0 +1,1764 @@
+{
+  "batteries": {
+    "B0005": {
+      "discharges": 168,
+      "first_capacity_ah": 1.8512,
+      "last_capacity_ah": 1.3222,
+      "fade_pct": 28.5736,
+      "fade_ah_per_100_cycles": 0.3854,
+      "eol_ah": 1.4,
+      "eol_discharge": 124,
+      "capacity_vs_nasa_mean_abs_ah": 0.0033,
+      "capacity_vs_nasa_max_abs_ah": 0.0053,
+      "energy_first_wh": 6.573,
+      "energy_last_wh": 4.592,
+      "median_coulombic_efficiency": 0.99,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 5,
+      "re_first_ohm": 0.0447,
+      "re_last_ohm": 0.05,
+      "quarantined_cycles": 2
+    },
+    "B0006": {
+      "discharges": 168,
+      "first_capacity_ah": 2.03,
+      "last_capacity_ah": 1.1828,
+      "fade_pct": 41.734,
+      "fade_ah_per_100_cycles": 0.5074,
+      "eol_ah": 1.4,
+      "eol_discharge": 109,
+      "capacity_vs_nasa_mean_abs_ah": 0.0033,
+      "capacity_vs_nasa_max_abs_ah": 0.0053,
+      "energy_first_wh": 7.239,
+      "energy_last_wh": 4.033,
+      "median_coulombic_efficiency": 0.991,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 6,
+      "re_first_ohm": 0.0612,
+      "re_last_ohm": 0.0736,
+      "quarantined_cycles": 2
+    },
+    "B0007": {
+      "discharges": 168,
+      "first_capacity_ah": 1.8858,
+      "last_capacity_ah": 1.4296,
+      "fade_pct": 24.1905,
+      "fade_ah_per_100_cycles": 0.3257,
+      "eol_ah": 1.4,
+      "eol_discharge": 166,
+      "capacity_vs_nasa_mean_abs_ah": 0.0033,
+      "capacity_vs_nasa_max_abs_ah": 0.0053,
+      "energy_first_wh": 6.756,
+      "energy_last_wh": 5.059,
+      "median_coulombic_efficiency": 0.994,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.0382,
+      "re_last_ohm": 0.0671,
+      "quarantined_cycles": 2
+    },
+    "B0018": {
+      "discharges": 132,
+      "first_capacity_ah": 1.8522,
+      "last_capacity_ah": 1.337,
+      "fade_pct": 27.8147,
+      "fade_ah_per_100_cycles": 0.3935,
+      "eol_ah": 1.4,
+      "eol_discharge": 97,
+      "capacity_vs_nasa_mean_abs_ah": 0.0035,
+      "capacity_vs_nasa_max_abs_ah": 0.0041,
+      "energy_first_wh": 6.588,
+      "energy_last_wh": 4.675,
+      "median_coulombic_efficiency": 0.982,
+      "flagged_charges": 1,
+      "recoveries_after_rest": 9,
+      "re_first_ohm": 0.0652,
+      "re_last_ohm": 0.0661,
+      "quarantined_cycles": 1
+    },
+    "B0025": {
+      "discharges": 28,
+      "first_capacity_ah": 1.8413,
+      "last_capacity_ah": 1.7613,
+      "fade_pct": 4.3478,
+      "fade_ah_per_100_cycles": 0.2573,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0062,
+      "capacity_vs_nasa_max_abs_ah": 0.0065,
+      "energy_first_wh": 6.241,
+      "energy_last_wh": 5.946,
+      "median_coulombic_efficiency": 0.988,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0506,
+      "re_last_ohm": 0.0497,
+      "quarantined_cycles": 1
+    },
+    "B0026": {
+      "discharges": 28,
+      "first_capacity_ah": 1.8076,
+      "last_capacity_ah": 1.7622,
+      "fade_pct": 2.5079,
+      "fade_ah_per_100_cycles": -0.035,
+      "eol_ah": 1.4,
+      "eol_discharge": 6,
+      "capacity_vs_nasa_mean_abs_ah": 0.0062,
+      "capacity_vs_nasa_max_abs_ah": 0.0065,
+      "energy_first_wh": 6.105,
+      "energy_last_wh": 5.935,
+      "median_coulombic_efficiency": 0.988,
+      "flagged_charges": 1,
+      "recoveries_after_rest": 3,
+      "re_first_ohm": 0.0927,
+      "re_last_ohm": 0.0904,
+      "quarantined_cycles": 1
+    },
+    "B0027": {
+      "discharges": 28,
+      "first_capacity_ah": 1.8177,
+      "last_capacity_ah": 1.7636,
+      "fade_pct": 2.9731,
+      "fade_ah_per_100_cycles": 0.113,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0061,
+      "capacity_vs_nasa_max_abs_ah": 0.0065,
+      "energy_first_wh": 5.947,
+      "energy_last_wh": 5.657,
+      "median_coulombic_efficiency": 0.991,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0908,
+      "re_last_ohm": 0.0997,
+      "quarantined_cycles": 1
+    },
+    "B0028": {
+      "discharges": 28,
+      "first_capacity_ah": 1.8019,
+      "last_capacity_ah": 1.714,
+      "fade_pct": 4.8773,
+      "fade_ah_per_100_cycles": 0.2663,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0031,
+      "capacity_vs_nasa_max_abs_ah": 0.0033,
+      "energy_first_wh": 6.415,
+      "energy_last_wh": 6.11,
+      "median_coulombic_efficiency": 0.996,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 0,
+      "re_first_ohm": 0.0814,
+      "re_last_ohm": 0.0797,
+      "quarantined_cycles": 1
+    },
+    "B0029": {
+      "discharges": 40,
+      "first_capacity_ah": 1.6919,
+      "last_capacity_ah": 1.6054,
+      "fade_pct": 5.108,
+      "fade_ah_per_100_cycles": 0.512,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0062,
+      "capacity_vs_nasa_max_abs_ah": 0.0066,
+      "energy_first_wh": 5.827,
+      "energy_last_wh": 5.558,
+      "median_coulombic_efficiency": 0.983,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0283,
+      "re_last_ohm": 0.0282,
+      "quarantined_cycles": 0
+    },
+    "B0030": {
+      "discharges": 40,
+      "first_capacity_ah": 1.6504,
+      "last_capacity_ah": 1.5561,
+      "fade_pct": 5.713,
+      "fade_ah_per_100_cycles": 0.4912,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0062,
+      "capacity_vs_nasa_max_abs_ah": 0.0066,
+      "energy_first_wh": 5.663,
+      "energy_last_wh": 5.34,
+      "median_coulombic_efficiency": 0.981,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0634,
+      "re_last_ohm": 0.0646,
+      "quarantined_cycles": 0
+    },
+    "B0031": {
+      "discharges": 40,
+      "first_capacity_ah": 1.6611,
+      "last_capacity_ah": 1.6608,
+      "fade_pct": 0.0211,
+      "fade_ah_per_100_cycles": 0.3192,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0061,
+      "capacity_vs_nasa_max_abs_ah": 0.0065,
+      "energy_first_wh": 5.634,
+      "energy_last_wh": 5.71,
+      "median_coulombic_efficiency": 0.984,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 3,
+      "re_first_ohm": 0.0401,
+      "re_last_ohm": 0.0407,
+      "quarantined_cycles": 0
+    },
+    "B0032": {
+      "discharges": 40,
+      "first_capacity_ah": 1.6993,
+      "last_capacity_ah": 1.6292,
+      "fade_pct": 4.1221,
+      "fade_ah_per_100_cycles": 0.5361,
+      "eol_ah": 1.4,
+      "eol_discharge": null,
+      "capacity_vs_nasa_mean_abs_ah": 0.0061,
+      "capacity_vs_nasa_max_abs_ah": 0.0066,
+      "energy_first_wh": 5.617,
+      "energy_last_wh": 5.421,
+      "median_coulombic_efficiency": 0.987,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0707,
+      "re_last_ohm": 0.0723,
+      "quarantined_cycles": 0
+    },
+    "B0033": {
+      "discharges": 190,
+      "first_capacity_ah": 0.0628,
+      "last_capacity_ah": 1.3061,
+      "fade_pct": -1980.6642,
+      "fade_ah_per_100_cycles": 0.1653,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0076,
+      "capacity_vs_nasa_max_abs_ah": 0.0092,
+      "energy_first_wh": 0.47,
+      "energy_last_wh": 4.176,
+      "median_coulombic_efficiency": 0.986,
+      "flagged_charges": 3,
+      "recoveries_after_rest": 14,
+      "re_first_ohm": 0.1037,
+      "re_last_ohm": 0.0858,
+      "quarantined_cycles": 9
+    },
+    "B0034": {
+      "discharges": 197,
+      "first_capacity_ah": 0.7403,
+      "last_capacity_ah": 1.2711,
+      "fade_pct": -71.7064,
+      "fade_ah_per_100_cycles": 0.1077,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0076,
+      "capacity_vs_nasa_max_abs_ah": 0.0092,
+      "energy_first_wh": 2.754,
+      "energy_last_wh": 4.161,
+      "median_coulombic_efficiency": 0.985,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 14,
+      "re_first_ohm": 0.1256,
+      "re_last_ohm": 0.1278,
+      "quarantined_cycles": 2
+    },
+    "B0036": {
+      "discharges": 196,
+      "first_capacity_ah": 0.9992,
+      "last_capacity_ah": 1.5546,
+      "fade_pct": -55.5865,
+      "fade_ah_per_100_cycles": 0.0961,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0038,
+      "capacity_vs_nasa_max_abs_ah": 0.0046,
+      "energy_first_wh": 3.301,
+      "energy_last_wh": 5.339,
+      "median_coulombic_efficiency": 0.994,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 3,
+      "re_first_ohm": 0.1055,
+      "re_last_ohm": 0.1045,
+      "quarantined_cycles": 3
+    },
+    "B0038": {
+      "discharges": 47,
+      "first_capacity_ah": 0.8924,
+      "last_capacity_ah": 1.5232,
+      "fade_pct": -70.6962,
+      "fade_ah_per_100_cycles": -1.6183,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0032,
+      "capacity_vs_nasa_max_abs_ah": 0.0069,
+      "energy_first_wh": 3.082,
+      "energy_last_wh": 4.938,
+      "median_coulombic_efficiency": 0.995,
+      "flagged_charges": 2,
+      "recoveries_after_rest": 3,
+      "re_first_ohm": 0.1074,
+      "re_last_ohm": 0.1564,
+      "quarantined_cycles": 1
+    },
+    "B0039": {
+      "discharges": 47,
+      "first_capacity_ah": 0.1134,
+      "last_capacity_ah": 1.3085,
+      "fade_pct": -1053.6671,
+      "fade_ah_per_100_cycles": -2.9103,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0031,
+      "capacity_vs_nasa_max_abs_ah": 0.0068,
+      "energy_first_wh": 1.264,
+      "energy_last_wh": 4.262,
+      "median_coulombic_efficiency": 0.994,
+      "flagged_charges": 3,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.1041,
+      "re_last_ohm": 0.1065,
+      "quarantined_cycles": 1
+    },
+    "B0040": {
+      "discharges": 47,
+      "first_capacity_ah": 0.6678,
+      "last_capacity_ah": 0.5501,
+      "fade_pct": 17.6245,
+      "fade_ah_per_100_cycles": -1.6324,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0031,
+      "capacity_vs_nasa_max_abs_ah": 0.0069,
+      "energy_first_wh": 1.966,
+      "energy_last_wh": 1.748,
+      "median_coulombic_efficiency": 0.999,
+      "flagged_charges": 4,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.1188,
+      "re_last_ohm": 0.1385,
+      "quarantined_cycles": 1
+    },
+    "B0041": {
+      "discharges": 64,
+      "first_capacity_ah": 0.049,
+      "last_capacity_ah": 0.8345,
+      "fade_pct": -1601.8718,
+      "fade_ah_per_100_cycles": -1.9503,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.005,
+      "capacity_vs_nasa_max_abs_ah": 0.0073,
+      "energy_first_wh": 0.17,
+      "energy_last_wh": 3.098,
+      "median_coulombic_efficiency": 0.826,
+      "flagged_charges": 35,
+      "recoveries_after_rest": 1,
+      "re_first_ohm": 0.0535,
+      "re_last_ohm": 0.0572,
+      "quarantined_cycles": 4
+    },
+    "B0042": {
+      "discharges": 109,
+      "first_capacity_ah": 1.7259,
+      "last_capacity_ah": 1.3355,
+      "fade_pct": 22.6177,
+      "fade_ah_per_100_cycles": 0.737,
+      "eol_ah": 1.4,
+      "eol_discharge": 42,
+      "capacity_vs_nasa_mean_abs_ah": 0.0178,
+      "capacity_vs_nasa_max_abs_ah": 1.4683,
+      "energy_first_wh": 6.146,
+      "energy_last_wh": 4.721,
+      "median_coulombic_efficiency": 0.996,
+      "flagged_charges": 13,
+      "recoveries_after_rest": 8,
+      "re_first_ohm": 0.0759,
+      "re_last_ohm": 0.079,
+      "quarantined_cycles": 5
+    },
+    "B0043": {
+      "discharges": 109,
+      "first_capacity_ah": 1.711,
+      "last_capacity_ah": 1.2749,
+      "fade_pct": 25.4898,
+      "fade_ah_per_100_cycles": 0.6769,
+      "eol_ah": 1.4,
+      "eol_discharge": 42,
+      "capacity_vs_nasa_mean_abs_ah": 0.0176,
+      "capacity_vs_nasa_max_abs_ah": 1.4509,
+      "energy_first_wh": 6.037,
+      "energy_last_wh": 4.438,
+      "median_coulombic_efficiency": 0.99,
+      "flagged_charges": 37,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0695,
+      "re_last_ohm": 0.0782,
+      "quarantined_cycles": 5
+    },
+    "B0044": {
+      "discharges": 109,
+      "first_capacity_ah": 1.6837,
+      "last_capacity_ah": 1.2467,
+      "fade_pct": 25.9564,
+      "fade_ah_per_100_cycles": 0.6701,
+      "eol_ah": 1.4,
+      "eol_discharge": 42,
+      "capacity_vs_nasa_mean_abs_ah": 0.0176,
+      "capacity_vs_nasa_max_abs_ah": 1.4545,
+      "energy_first_wh": 5.808,
+      "energy_last_wh": 4.231,
+      "median_coulombic_efficiency": 0.992,
+      "flagged_charges": 32,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.0802,
+      "re_last_ohm": 0.0847,
+      "quarantined_cycles": 5
+    },
+    "B0045": {
+      "discharges": 72,
+      "first_capacity_ah": 1.08,
+      "last_capacity_ah": 0.6047,
+      "fade_pct": 44.0088,
+      "fade_ah_per_100_cycles": 0.3553,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0188,
+      "capacity_vs_nasa_max_abs_ah": 0.6593,
+      "energy_first_wh": 3.902,
+      "energy_last_wh": 2.335,
+      "median_coulombic_efficiency": 0.994,
+      "flagged_charges": 4,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.0726,
+      "re_last_ohm": 0.0739,
+      "quarantined_cycles": 0
+    },
+    "B0046": {
+      "discharges": 72,
+      "first_capacity_ah": 1.7263,
+      "last_capacity_ah": 1.1516,
+      "fade_pct": 33.292,
+      "fade_ah_per_100_cycles": 0.5703,
+      "eol_ah": 1.4,
+      "eol_discharge": 17,
+      "capacity_vs_nasa_mean_abs_ah": 0.0326,
+      "capacity_vs_nasa_max_abs_ah": 0.995,
+      "energy_first_wh": 6.166,
+      "energy_last_wh": 4.107,
+      "median_coulombic_efficiency": 0.997,
+      "flagged_charges": 6,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.0919,
+      "re_last_ohm": 0.0808,
+      "quarantined_cycles": 0
+    },
+    "B0047": {
+      "discharges": 72,
+      "first_capacity_ah": 1.6724,
+      "last_capacity_ah": 1.1545,
+      "fade_pct": 30.9669,
+      "fade_ah_per_100_cycles": 0.5295,
+      "eol_ah": 1.4,
+      "eol_discharge": 10,
+      "capacity_vs_nasa_mean_abs_ah": 0.0322,
+      "capacity_vs_nasa_max_abs_ah": 0.9828,
+      "energy_first_wh": 5.925,
+      "energy_last_wh": 4.0,
+      "median_coulombic_efficiency": 0.992,
+      "flagged_charges": 6,
+      "recoveries_after_rest": 5,
+      "re_first_ohm": 0.0561,
+      "re_last_ohm": 0.073,
+      "quarantined_cycles": 0
+    },
+    "B0048": {
+      "discharges": 72,
+      "first_capacity_ah": 1.6561,
+      "last_capacity_ah": 1.2209,
+      "fade_pct": 26.2756,
+      "fade_ah_per_100_cycles": 0.429,
+      "eol_ah": 1.4,
+      "eol_discharge": 12,
+      "capacity_vs_nasa_mean_abs_ah": 0.0323,
+      "capacity_vs_nasa_max_abs_ah": 0.9848,
+      "energy_first_wh": 5.743,
+      "energy_last_wh": 4.153,
+      "median_coulombic_efficiency": 0.994,
+      "flagged_charges": 6,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.078,
+      "re_last_ohm": 0.0805,
+      "quarantined_cycles": 0
+    },
+    "B0049": {
+      "discharges": 25,
+      "first_capacity_ah": 0.8556,
+      "last_capacity_ah": 0.6883,
+      "fade_pct": 19.5448,
+      "fade_ah_per_100_cycles": 3.3223,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0077,
+      "capacity_vs_nasa_max_abs_ah": 0.1209,
+      "energy_first_wh": 2.883,
+      "energy_last_wh": 2.782,
+      "median_coulombic_efficiency": 0.975,
+      "flagged_charges": 3,
+      "recoveries_after_rest": 9,
+      "re_first_ohm": 0.0487,
+      "re_last_ohm": 0.0719,
+      "quarantined_cycles": 1
+    },
+    "B0050": {
+      "discharges": 16,
+      "first_capacity_ah": 0.8603,
+      "last_capacity_ah": 0.275,
+      "fade_pct": 68.0314,
+      "fade_ah_per_100_cycles": 10.0289,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0103,
+      "capacity_vs_nasa_max_abs_ah": 0.1207,
+      "energy_first_wh": 2.853,
+      "energy_last_wh": 1.055,
+      "median_coulombic_efficiency": 0.967,
+      "flagged_charges": 4,
+      "recoveries_after_rest": 6,
+      "re_first_ohm": 0.0846,
+      "re_last_ohm": -5470.6838,
+      "quarantined_cycles": 20
+    },
+    "B0051": {
+      "discharges": 25,
+      "first_capacity_ah": 0.6407,
+      "last_capacity_ah": 0.6748,
+      "fade_pct": -5.3305,
+      "fade_ah_per_100_cycles": 2.7146,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0076,
+      "capacity_vs_nasa_max_abs_ah": 0.1194,
+      "energy_first_wh": 2.074,
+      "energy_last_wh": 2.392,
+      "median_coulombic_efficiency": 0.977,
+      "flagged_charges": 5,
+      "recoveries_after_rest": 4,
+      "re_first_ohm": 0.0714,
+      "re_last_ohm": 0.0804,
+      "quarantined_cycles": 1
+    },
+    "B0052": {
+      "discharges": 4,
+      "first_capacity_ah": 0.8579,
+      "last_capacity_ah": 1.3487,
+      "fade_pct": -57.2168,
+      "fade_ah_per_100_cycles": -14.2494,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0028,
+      "capacity_vs_nasa_max_abs_ah": 0.0029,
+      "energy_first_wh": 2.651,
+      "energy_last_wh": 4.478,
+      "median_coulombic_efficiency": 0.93,
+      "flagged_charges": 1,
+      "recoveries_after_rest": 1,
+      "re_first_ohm": 0.0784,
+      "re_last_ohm": -4050.7545,
+      "quarantined_cycles": 43
+    },
+    "B0053": {
+      "discharges": 55,
+      "first_capacity_ah": 1.0658,
+      "last_capacity_ah": 1.0064,
+      "fade_pct": 5.5742,
+      "fade_ah_per_100_cycles": 0.1424,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0036,
+      "capacity_vs_nasa_max_abs_ah": 0.0039,
+      "energy_first_wh": 3.999,
+      "energy_last_wh": 3.981,
+      "median_coulombic_efficiency": 0.995,
+      "flagged_charges": 0,
+      "recoveries_after_rest": 2,
+      "re_first_ohm": 0.1009,
+      "re_last_ohm": 0.102,
+      "quarantined_cycles": 1
+    },
+    "B0054": {
+      "discharges": 102,
+      "first_capacity_ah": 0.7371,
+      "last_capacity_ah": 0.8335,
+      "fade_pct": -13.0831,
+      "fade_ah_per_100_cycles": 0.2023,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0034,
+      "capacity_vs_nasa_max_abs_ah": 0.0039,
+      "energy_first_wh": 2.486,
+      "energy_last_wh": 3.65,
+      "median_coulombic_efficiency": 0.997,
+      "flagged_charges": 46,
+      "recoveries_after_rest": 33,
+      "re_first_ohm": 0.1073,
+      "re_last_ohm": 0.1015,
+      "quarantined_cycles": 1
+    },
+    "B0055": {
+      "discharges": 102,
+      "first_capacity_ah": 0.7962,
+      "last_capacity_ah": 0.987,
+      "fade_pct": -23.9577,
+      "fade_ah_per_100_cycles": 0.1637,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0033,
+      "capacity_vs_nasa_max_abs_ah": 0.0038,
+      "energy_first_wh": 2.553,
+      "energy_last_wh": 3.6,
+      "median_coulombic_efficiency": 0.991,
+      "flagged_charges": 4,
+      "recoveries_after_rest": 26,
+      "re_first_ohm": 0.1016,
+      "re_last_ohm": 0.0968,
+      "quarantined_cycles": 0
+    },
+    "B0056": {
+      "discharges": 102,
+      "first_capacity_ah": 0.7825,
+      "last_capacity_ah": 1.1252,
+      "fade_pct": -43.8068,
+      "fade_ah_per_100_cycles": 0.1007,
+      "eol_ah": 1.4,
+      "eol_discharge": 1,
+      "capacity_vs_nasa_mean_abs_ah": 0.0034,
+      "capacity_vs_nasa_max_abs_ah": 0.0038,
+      "energy_first_wh": 2.351,
+      "energy_last_wh": 3.702,
+      "median_coulombic_efficiency": 0.991,
+      "flagged_charges": 3,
+      "recoveries_after_rest": 15,
+      "re_first_ohm": 0.1089,
+      "re_last_ohm": 0.1027,
+      "quarantined_cycles": 0
+    }
+  },
+  "totals": {
+    "cycles": 7565,
+    "samples": 7154161,
+    "discharges": 2742,
+    "charges": 2753,
+    "quarantined": 114,
+    "quarantine_reasons": {
+      "missing or non-finite values": 25,
+      "only 3 samples": 2,
+      "only 5 samples": 3,
+      "only 9 samples": 12,
+      "voltage out of range": 21,
+      "voltage out of range; no charge current": 26,
+      "voltage out of range; no discharge current": 25
+    },
+    "flagged_charges": [
+      {
+        "battery_id": "B0018",
+        "cycle_no": 116,
+        "flag": "interrupted or partial charge: 0.17 Ah in, efficiency 10.28"
+      },
+      {
+        "battery_id": "B0026",
+        "cycle_no": 14,
+        "flag": "low efficiency 0.76: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0033",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.38: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0033",
+        "cycle_no": 381,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0033",
+        "cycle_no": 473,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0038",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0038",
+        "cycle_no": 31,
+        "flag": "interrupted or partial charge: 1.15 Ah in, efficiency 1.54"
+      },
+      {
+        "battery_id": "B0039",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0039",
+        "cycle_no": 31,
+        "flag": "interrupted or partial charge: 0.54 Ah in, efficiency 3.28"
+      },
+      {
+        "battery_id": "B0039",
+        "cycle_no": 115,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0040",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0040",
+        "cycle_no": 31,
+        "flag": "interrupted or partial charge: 0.72 Ah in, efficiency 2.37"
+      },
+      {
+        "battery_id": "B0040",
+        "cycle_no": 115,
+        "flag": "low efficiency 0.25: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0040",
+        "cycle_no": 119,
+        "flag": "interrupted or partial charge: 0.46 Ah in, efficiency 1.20"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 2,
+        "flag": "low efficiency 0.89: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 5,
+        "flag": "low efficiency 0.74: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 7,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 9,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 11,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 14,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 17,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 19,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 21,
+        "flag": "low efficiency 0.66: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 26,
+        "flag": "low efficiency 0.70: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 31,
+        "flag": "low efficiency 0.70: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 33,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 35,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 38,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 41,
+        "flag": "low efficiency 0.75: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 43,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 45,
+        "flag": "low efficiency 0.76: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 47,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 50,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 54,
+        "flag": "low efficiency 0.70: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 57,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 59,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 61,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 63,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 66,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 69,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 71,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 73,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 75,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 78,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 81,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 83,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 85,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 87,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0041",
+        "cycle_no": 90,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 13,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 16,
+        "flag": "interrupted or partial charge: 1.48 Ah in, efficiency 1.17"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 101,
+        "flag": "low efficiency 0.73: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 121,
+        "flag": "low efficiency 0.65: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 123,
+        "flag": "interrupted or partial charge: 0.76 Ah in, efficiency 1.51"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 155,
+        "flag": "low efficiency 0.60: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 162,
+        "flag": "interrupted or partial charge: 0.62 Ah in, efficiency 1.86"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 171,
+        "flag": "low efficiency 0.60: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 173,
+        "flag": "interrupted or partial charge: 0.71 Ah in, efficiency 1.61"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 195,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 197,
+        "flag": "low efficiency 0.71: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 199,
+        "flag": "low efficiency 0.14: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0042",
+        "cycle_no": 202,
+        "flag": "low efficiency 0.72: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 13,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 16,
+        "flag": "interrupted or partial charge: 1.47 Ah in, efficiency 1.13"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 101,
+        "flag": "low efficiency 0.04: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 105,
+        "flag": "low efficiency 0.90: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 108,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 110,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 114,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 117,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 119,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 121,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 123,
+        "flag": "low efficiency 0.73: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 129,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 131,
+        "flag": "low efficiency 0.72: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 133,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 138,
+        "flag": "low efficiency 0.75: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 143,
+        "flag": "low efficiency 0.72: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 147,
+        "flag": "low efficiency 0.73: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 153,
+        "flag": "low efficiency 0.72: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 155,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 157,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 159,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 162,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 166,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 171,
+        "flag": "low efficiency 0.73: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 173,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 175,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 178,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 181,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 183,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 185,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 187,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 190,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 193,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 195,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 197,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 199,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0043",
+        "cycle_no": 202,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 13,
+        "flag": "low efficiency 0.89: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 16,
+        "flag": "interrupted or partial charge: 1.46 Ah in, efficiency 1.11"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 101,
+        "flag": "low efficiency 0.04: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 105,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 108,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 110,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 117,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 119,
+        "flag": "low efficiency 0.69: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 123,
+        "flag": "low efficiency 0.67: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 129,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 131,
+        "flag": "low efficiency 0.69: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 133,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 138,
+        "flag": "low efficiency 0.72: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 143,
+        "flag": "low efficiency 0.70: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 147,
+        "flag": "low efficiency 0.69: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 153,
+        "flag": "low efficiency 0.67: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 155,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 157,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 159,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 162,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 166,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 171,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 173,
+        "flag": "low efficiency 0.66: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 178,
+        "flag": "low efficiency 0.69: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 183,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 185,
+        "flag": "low efficiency 0.66: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 190,
+        "flag": "low efficiency 0.70: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 193,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 195,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 197,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 199,
+        "flag": "low efficiency 0.78: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0044",
+        "cycle_no": 202,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0045",
+        "cycle_no": 50,
+        "flag": "low efficiency 0.76: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0045",
+        "cycle_no": 52,
+        "flag": "interrupted or partial charge: 0.70 Ah in, efficiency 1.23"
+      },
+      {
+        "battery_id": "B0045",
+        "cycle_no": 164,
+        "flag": "low efficiency 0.73: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0045",
+        "cycle_no": 167,
+        "flag": "interrupted or partial charge: 0.58 Ah in, efficiency 1.32"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 50,
+        "flag": "low efficiency 0.46: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 52,
+        "flag": "interrupted or partial charge: 0.74 Ah in, efficiency 2.01"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 132,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 135,
+        "flag": "interrupted or partial charge: 1.05 Ah in, efficiency 1.26"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 164,
+        "flag": "low efficiency 0.45: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0046",
+        "cycle_no": 167,
+        "flag": "interrupted or partial charge: 0.64 Ah in, efficiency 2.12"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 50,
+        "flag": "low efficiency 0.48: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 52,
+        "flag": "interrupted or partial charge: 0.70 Ah in, efficiency 1.95"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 132,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 135,
+        "flag": "interrupted or partial charge: 1.01 Ah in, efficiency 1.22"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 164,
+        "flag": "low efficiency 0.46: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0047",
+        "cycle_no": 167,
+        "flag": "interrupted or partial charge: 0.59 Ah in, efficiency 2.12"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 50,
+        "flag": "low efficiency 0.49: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 52,
+        "flag": "interrupted or partial charge: 0.70 Ah in, efficiency 1.95"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 132,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 135,
+        "flag": "interrupted or partial charge: 1.01 Ah in, efficiency 1.25"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 164,
+        "flag": "low efficiency 0.45: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0048",
+        "cycle_no": 167,
+        "flag": "interrupted or partial charge: 0.59 Ah in, efficiency 2.18"
+      },
+      {
+        "battery_id": "B0049",
+        "cycle_no": 8,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0049",
+        "cycle_no": 40,
+        "flag": "low efficiency 0.12: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0049",
+        "cycle_no": 42,
+        "flag": "interrupted or partial charge: 0.17 Ah in, efficiency 6.34"
+      },
+      {
+        "battery_id": "B0050",
+        "cycle_no": 22,
+        "flag": "interrupted or partial charge: 1.45 Ah in, efficiency 1.14"
+      },
+      {
+        "battery_id": "B0050",
+        "cycle_no": 40,
+        "flag": "low efficiency 0.37: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0050",
+        "cycle_no": 42,
+        "flag": "low efficiency 0.09: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0050",
+        "cycle_no": 49,
+        "flag": "interrupted or partial charge: 0.29 Ah in, efficiency 1.21"
+      },
+      {
+        "battery_id": "B0051",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0051",
+        "cycle_no": 6,
+        "flag": "low efficiency 0.90: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0051",
+        "cycle_no": 13,
+        "flag": "low efficiency 0.89: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0051",
+        "cycle_no": 40,
+        "flag": "low efficiency 0.14: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0051",
+        "cycle_no": 42,
+        "flag": "interrupted or partial charge: 0.14 Ah in, efficiency 5.94"
+      },
+      {
+        "battery_id": "B0052",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.85: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 6,
+        "flag": "low efficiency 0.90: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 8,
+        "flag": "interrupted or partial charge: 1.23 Ah in, efficiency 1.23"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 10,
+        "flag": "low efficiency 0.77: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 12,
+        "flag": "interrupted or partial charge: 1.18 Ah in, efficiency 1.25"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 15,
+        "flag": "low efficiency 0.80: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 18,
+        "flag": "interrupted or partial charge: 1.20 Ah in, efficiency 1.12"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 20,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 24,
+        "flag": "interrupted or partial charge: 1.13 Ah in, efficiency 1.16"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 27,
+        "flag": "low efficiency 0.86: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 30,
+        "flag": "interrupted or partial charge: 1.13 Ah in, efficiency 1.20"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 32,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 36,
+        "flag": "interrupted or partial charge: 1.08 Ah in, efficiency 1.28"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 46,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 48,
+        "flag": "interrupted or partial charge: 1.11 Ah in, efficiency 1.23"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 55,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 58,
+        "flag": "interrupted or partial charge: 1.21 Ah in, efficiency 1.17"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 64,
+        "flag": "low efficiency 0.79: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 72,
+        "flag": "interrupted or partial charge: 1.16 Ah in, efficiency 1.17"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 74,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 76,
+        "flag": "interrupted or partial charge: 1.11 Ah in, efficiency 1.21"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 82,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 84,
+        "flag": "interrupted or partial charge: 1.08 Ah in, efficiency 1.20"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 91,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 94,
+        "flag": "interrupted or partial charge: 1.09 Ah in, efficiency 1.21"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 96,
+        "flag": "low efficiency 0.89: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 98,
+        "flag": "low efficiency 0.88: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 100,
+        "flag": "interrupted or partial charge: 1.05 Ah in, efficiency 1.26"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 110,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 112,
+        "flag": "interrupted or partial charge: 1.12 Ah in, efficiency 1.20"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 136,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 138,
+        "flag": "interrupted or partial charge: 1.11 Ah in, efficiency 1.17"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 148,
+        "flag": "low efficiency 0.84: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 150,
+        "flag": "interrupted or partial charge: 1.10 Ah in, efficiency 1.16"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 152,
+        "flag": "low efficiency 0.81: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 155,
+        "flag": "interrupted or partial charge: 1.05 Ah in, efficiency 1.22"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 160,
+        "flag": "low efficiency 0.82: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 162,
+        "flag": "interrupted or partial charge: 1.06 Ah in, efficiency 1.18"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 174,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 176,
+        "flag": "interrupted or partial charge: 1.08 Ah in, efficiency 1.18"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 192,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 195,
+        "flag": "interrupted or partial charge: 1.09 Ah in, efficiency 1.14"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 212,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 214,
+        "flag": "interrupted or partial charge: 1.09 Ah in, efficiency 1.12"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 235,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0054",
+        "cycle_no": 238,
+        "flag": "interrupted or partial charge: 1.10 Ah in, efficiency 1.13"
+      },
+      {
+        "battery_id": "B0055",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.83: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0055",
+        "cycle_no": 116,
+        "flag": "interrupted or partial charge: 1.05 Ah in, efficiency 1.15"
+      },
+      {
+        "battery_id": "B0055",
+        "cycle_no": 219,
+        "flag": "interrupted or partial charge: 1.10 Ah in, efficiency 1.17"
+      },
+      {
+        "battery_id": "B0055",
+        "cycle_no": 226,
+        "flag": "low efficiency 0.89: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0056",
+        "cycle_no": 3,
+        "flag": "low efficiency 0.87: charge lost or sensor drift"
+      },
+      {
+        "battery_id": "B0056",
+        "cycle_no": 116,
+        "flag": "interrupted or partial charge: 1.07 Ah in, efficiency 1.15"
+      },
+      {
+        "battery_id": "B0056",
+        "cycle_no": 219,
+        "flag": "interrupted or partial charge: 1.10 Ah in, efficiency 1.15"
+      }
+    ],
+    "build_seconds": 9.1
+  }
+}

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/
+data/download/
+data/*.db
+.DS_Store
+data/readmes/
+data/raw_all/
+results/*.db
