@@ -11,3 +11,19 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest -q
       - run: docker build -t battery-aging .
+  swift:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: swift
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift --version
+      - name: XCTest suite on recorded readings
+        run: swift test
+      - name: Run the tool on each recorded reading (the runner has no battery)
+        run: |
+          swift build
+          for f in Tests/BatteryHealthCoreTests/Fixtures/*; do
+            echo "== $f"; .build/debug/battery-health --file "$f" || echo "exit $?"
+          done

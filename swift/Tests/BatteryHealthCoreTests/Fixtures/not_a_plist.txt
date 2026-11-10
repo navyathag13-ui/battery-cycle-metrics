@@ -1,0 +1,1 @@
+AppleSmartBattery: could not read

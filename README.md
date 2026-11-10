@@ -86,7 +86,29 @@ NASA .mat files
 - **End to end:** the same file through the ETL, the database and the HTTP API.
 - **Real data:** run only when the NASA files are present (they are not in git): the 4-cell set must match NASA within 0.01 Ah on every discharge, and all 34 cells on at least 99%.
 
-GitHub Actions runs the tests and builds the Docker image on every push.
+GitHub Actions runs the tests and builds the Docker image on every push, and runs the Swift tool's XCTest suite on macOS.
+
+## The same checks on a real Mac battery (Swift)
+
+The pipeline above judges NASA's cells from lab data. `swift/` applies the same rules to the battery in the Mac it runs on: a Swift command-line tool that reads the battery gauge through `ioreg -rn AppleSmartBattery -a` (read-only), checks the reading the way `checks.py` checks a cycle, and only then scores it against the same 80% end-of-life line.
+
+```
+$ swift run battery-health
+Battery: OK
+  capacity  4389 of 4629 mAh design (94.8%)
+  cycles    110 of 1000 rated
+  pack      11.93 V, cells 3976/3975/3977 mV, 30.2 C, 540 mA, charging
+```
+
+| Step | Rule | Same as the pipeline |
+|---|---|---|
+| Data checks (reject, do not score) | temperature outside -10 to 80 C, a cell outside 2.5 to 4.5 V, pack voltage not matching the sum of its cells, capacity over 110% of design, missing or wrong-typed keys | A failing cycle goes to quarantine instead of the capacity curve |
+| Score | full-charge capacity as % of design | Capacity against the cell's start |
+| Verdict | below 80% of design: service recommended; also flags cells out of balance by more than 100 mV, a permanent-failure code or a pack past its rated cycles | `EOL_FRACTION = 0.8` |
+
+Exit code 0 is OK, 1 is service recommended and 2 is a rejected or unreadable reading, so it can sit in a script. `--json` prints the report as JSON.
+
+**Tests.** 16 XCTest tests run on recorded readings, not the live battery, so they give the same answer on any Mac and on a CI runner that has no battery. `macbook_real.plist` is a real reading from my MacBook, saved with `--save-fixture`, which keeps 16 battery fields (capacity, cycles, voltages, temperature, current, charge state) and drops serial numbers, manufacturing data and adapter IDs; a test checks that no fixture holds a serial number. The other fixtures are that reading with one fault planted: a worn pack at 76.7%, an impossible 310 C, a dead cell, a missing design capacity, a file that is not a plist and a discharging reading, where ioreg prints -189 mA as the unsigned number 18446744073709551427. To check the tests can fail, I moved the end-of-life line to 75% and removed the temperature check; 4 of 16 tests failed. GitHub Actions runs them on a macOS runner.
 
 ## Run it
 
@@ -104,6 +126,13 @@ Docker (mount the .mat files; the container builds the database, then serves it)
 ```bash
 docker build -t battery-aging .
 docker run -p 8000:8000 -v "$PWD/data/raw_all:/app/data/raw:ro" battery-aging
+```
+
+Swift tool (macOS; the tests need Xcode):
+
+```bash
+cd swift && swift run battery-health   # this Mac's battery
+swift test                             # 16 XCTest tests on recorded readings
 ```
 
 ## Limits

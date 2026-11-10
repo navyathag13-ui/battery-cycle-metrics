@@ -8,3 +8,5 @@ data/*.db
 data/readmes/
 data/raw_all/
 results/*.db
+swift/.build/
+swift/.swiftpm/
