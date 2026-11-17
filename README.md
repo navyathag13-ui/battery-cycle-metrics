@@ -114,6 +114,10 @@ upload B0005.mat to s3://<bucket>/raw/
 
 Saved queries (`aws/queries/`): `nasa_agreement` (share of discharges within 0.01 Ah of NASA), `quarantine_reasons`, `capacity_fade` per cell and `load_totals`.
 
+**Deployed run (us-east-1, Nov 2026).** `terraform apply` created 23 resources. Uploading the 34 .mat files to `raw/` ran the Lambda once per file: all 34 loaded, none rejected, median 1.37 s per file and 4.52 s for the slowest (the first, cold start included). `aws/check.py` then ran the 4 saved queries in Athena, and every total matches the local SQLite build: 34 cells, 7,565 cycles, 7,154,161 samples, 2,742 discharges, 114 quarantined (same 7 reasons, same counts), and 2,725 of 2,742 discharges (99.4%) within 0.01 Ah of NASA. Each query took 0.5 to 1.1 s and scanned at most 0.1 MB of the 224 MB of Parquet, because Athena reads only the columns a query names.
+
+Two things the first deploy taught me, both fixed: the Lambda Python 3.11 base image runs Amazon Linux 2, whose glibc is too old for current numpy wheels, so pip tried to compile numpy and failed (the image is now Python 3.12, and `--only-binary` makes that fail fast); and CloudShell keeps separate files per region, so a run started in one region left an ECR repository the other region's Terraform state did not know about (`terraform import` adopted it).
+
 **Dry run on this machine.** `aws/local_run.py` runs the real Lambda handler against a fake S3 (moto) on all 34 cells, then runs the saved queries on the Parquet with DuckDB. It reproduces the SQLite build exactly: 34 cells, 7,565 cycles, 7,154,161 samples, 2,742 discharges, 114 quarantined, and 2,725 of 2,742 discharges (99.4%) within 0.01 Ah of NASA. The slowest file took 1.2 s; all 34 took about 15 s one after another. The Parquet (zstd) is 224 MB against 199 MB of .mat files: full-precision readings barely compress, so the gain is columnar reads, not size.
 
 ```bash
