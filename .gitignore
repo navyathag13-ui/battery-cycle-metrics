@@ -10,3 +10,6 @@ data/raw_all/
 results/*.db
 swift/.build/
 swift/.swiftpm/
+aws/terraform/.terraform/
+aws/terraform/*.tfstate*
+aws/terraform/.terraform.lock.hcl

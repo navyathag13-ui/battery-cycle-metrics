@@ -8,9 +8,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt -r requirements-dev.txt
       - run: pytest -q
       - run: docker build -t battery-aging .
+  terraform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.8
+      - run: terraform -chdir=aws/terraform fmt -check
+      - run: terraform -chdir=aws/terraform init -backend=false
+      - run: terraform -chdir=aws/terraform validate
   swift:
     runs-on: macos-latest
     defaults:

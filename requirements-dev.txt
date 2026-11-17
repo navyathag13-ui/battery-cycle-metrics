@@ -1,0 +1,3 @@
+# Only for tests and aws/local_run.py (fake S3, local SQL engine)
+moto[s3]>=5
+duckdb>=1.0

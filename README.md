@@ -79,14 +79,58 @@ NASA .mat files
 
 ## Tests
 
-42 pytest tests:
+51 pytest tests:
 
 - **Unit:** synthetic signals with known answers (2 A for one hour must give exactly 2.0 Ah; rest samples after the load turns off change nothing; each data check catches its planted fault; abnormal runs are flagged but steady fade is not; a one-off dip does not count as end of life; cells that die inside the early window are never scored).
 - **Integration:** a synthetic cell written in NASA's .mat format, with a planted voltage glitch, goes through the ETL; every table is checked.
 - **End to end:** the same file through the ETL, the database and the HTTP API.
+- **AWS path (9):** against a fake S3 (moto): an upload event runs the Lambda handler and every Parquet table matches the local build row for row; an empty table keeps the types Glue expects; a re-upload overwrites instead of duplicating; an unreadable file goes to `rejected/`; other keys are skipped; URL-encoded keys work; it writes only to the prefixes its IAM policy allows; the Glue schema matches the SQLite tables; the saved Athena queries run on the output.
 - **Real data:** run only when the NASA files are present (they are not in git): the 4-cell set must match NASA within 0.01 Ah on every discharge, and all 34 cells on at least 99%.
 
-GitHub Actions runs the tests and builds the Docker image on every push, and runs the Swift tool's XCTest suite on macOS.
+GitHub Actions runs the tests, builds the Docker image and runs `terraform fmt -check` and `terraform validate` on every push, and runs the Swift tool's XCTest suite on macOS.
+
+## The same pipeline on AWS
+
+`aws/` runs the same ETL and checks serverless, one file at a time, so new test data is processed as it lands:
+
+```
+upload B0005.mat to s3://<bucket>/raw/
+  -> S3 event -> Lambda (container image: numpy, scipy, pandas and pyarrow are too big for a zip)
+       battery_metrics/cloud.py: the same read_mat + checks + metrics as the local build
+  -> curated/<table>/<battery_id>.parquet   6 tables, one file per cell, overwritten on re-upload
+     reports/<battery_id>.json              counts and seconds for that run
+     rejected/<file>.json                   files that could not be read, with the error
+  -> Glue catalog (one Parquet table each) -> Athena workgroup with 4 saved queries
+```
+
+| Piece | Choice and why |
+|---|---|
+| Schema | `aws/schema.json` is the one definition: Terraform builds the Glue tables from it and the Lambda writes Parquet with exactly those types, so a table with no rows (a clean cell has no quarantine) still matches Glue. A test checks it against the SQLite tables. |
+| Re-runs | Output keys depend only on the cell, so uploading a file twice replaces its rows instead of doubling them. |
+| Bad files | Caught and parked in `rejected/` so one corrupt upload does not stop the rest. |
+| Permissions | The Lambda role can read only `raw/`, write only `curated/`, `reports/` and `rejected/`, and log only to its own group. |
+| Cost guards | Athena workgroup stops any query over 1 GB scanned; Athena results expire after 7 days; ECR keeps the last 3 images; logs kept 14 days; bucket is private and encrypted. |
+| Infrastructure | All Terraform (`aws/terraform`): S3, ECR, Lambda, the S3 trigger, IAM, Glue database and 6 tables, Athena workgroup and saved queries. |
+
+Saved queries (`aws/queries/`): `nasa_agreement` (share of discharges within 0.01 Ah of NASA), `quarantine_reasons`, `capacity_fade` per cell and `load_totals`.
+
+**Dry run on this machine.** `aws/local_run.py` runs the real Lambda handler against a fake S3 (moto) on all 34 cells, then runs the saved queries on the Parquet with DuckDB. It reproduces the SQLite build exactly: 34 cells, 7,565 cycles, 7,154,161 samples, 2,742 discharges, 114 quarantined, and 2,725 of 2,742 discharges (99.4%) within 0.01 Ah of NASA. The slowest file took 1.2 s; all 34 took about 15 s one after another. The Parquet (zstd) is 224 MB against 199 MB of .mat files: full-precision readings barely compress, so the gain is columnar reads, not size.
+
+```bash
+.venv/bin/pip install -r requirements.txt -r requirements-dev.txt
+.venv/bin/python aws/local_run.py data/raw_all     # no AWS account needed
+```
+
+**Deploy** (AWS CloudShell has the AWS CLI, Docker and your login; the script installs Terraform):
+
+```bash
+bash aws/deploy.sh            # ECR, image build and push, then everything else (asks before applying)
+bash aws/upload.sh            # or drag the 34 .mat files into raw/ in the S3 console
+python3 aws/check.py          # waits for the 34 run reports, runs the saved queries in Athena
+terraform -chdir=aws/terraform destroy -var image_tag=x   # remove it all
+```
+
+Everything here fits in the AWS free tier except ECR storage past 500 MB and S3 storage, both a few cents a month at this size.
 
 ## The same checks on a real Mac battery (Swift)
 

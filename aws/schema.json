@@ -1,0 +1,56 @@
+{
+  "cycles": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "type": "string",
+    "start_time": "string",
+    "ambient_temp_c": "double",
+    "n_samples": "bigint"
+  },
+  "samples": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "t_s": "double",
+    "voltage_v": "double",
+    "current_a": "double",
+    "temp_c": "double"
+  },
+  "impedance": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "re_ohm": "double",
+    "rct_ohm": "double"
+  },
+  "quarantine": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "type": "string",
+    "reasons": "string"
+  },
+  "discharge_metrics": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "discharge_no": "bigint",
+    "capacity_ah": "double",
+    "capacity_to_2v7_ah": "double",
+    "nasa_capacity_ah": "double",
+    "energy_wh": "double",
+    "avg_voltage_v": "double",
+    "end_voltage_v": "double",
+    "duration_s": "double",
+    "max_temp_c": "double",
+    "temp_rise_c": "double",
+    "soh_pct": "double",
+    "recovered_after_rest": "bigint"
+  },
+  "charge_metrics": {
+    "battery_id": "string",
+    "cycle_no": "bigint",
+    "charge_ah": "double",
+    "cc_time_s": "double",
+    "cv_time_s": "double",
+    "next_discharge_ah": "double",
+    "coulombic_efficiency": "double",
+    "flag": "string"
+  }
+}
